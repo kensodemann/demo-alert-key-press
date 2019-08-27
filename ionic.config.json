@@ -1,0 +1,7 @@
+{
+  "name": "demo-alert-key-press",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
