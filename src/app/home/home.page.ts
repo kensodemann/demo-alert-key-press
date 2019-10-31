@@ -41,5 +41,7 @@ export class HomePage {
 
     await alert.present();
     alert.onkeyup = ev => console.log(ev.keyCode);
+    const firstInput: any = document.querySelector('ion-alert input');
+    firstInput.focus();
   }
 }
